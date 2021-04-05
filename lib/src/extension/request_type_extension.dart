@@ -1,5 +1,5 @@
 import '../model/enum/request_type.dart';
-
+/// It is required to decide Request Type, possible requests are Get, Post, Delete and Put.
 extension NetworkTypeExtension on RequestType {
   String get stringValue {
     switch (this) {
